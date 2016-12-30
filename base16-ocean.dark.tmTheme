@@ -71,14 +71,84 @@
 			</dict>
 		</dict>
 		<dict>
+	    <key>name</key>
+	    <string>WordHighlight</string>
+	    <key>scope</key>
+	    <string>wordhighlight</string>
+	    <key>settings</key>
+	    <dict>
+	        <key>background</key>
+	        <string>#171E21</string>
+	    </dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Hocon</string>
+			<key>scope</key>
+			<string>source.hocon</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b48ead</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<string>
+				punctuation.definition.variable,
+				punctuation.definition.parameters,
+				punctuation.definition.array
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#c0c5ce</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation definition expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bf616a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation misc</string>
+			<key>scope</key>
+			<string>punctuation.accessor, punctuation.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FA1B3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Arrows</string>
+			<key>scope</key>
+			<string>storage.type.function.arrow, keyword.operator.arrow</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b48ead</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constructor usage</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8fa1b3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +170,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c0c5ce</string>
+				<string>#8FA1B3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Varargs</string>
+			<key>scope</key>
+			<string>keyword.operator.varargs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FA1B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -118,7 +199,29 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable, variable.other.dollar.only.js</string>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bf616a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Local variable</string>
+			<key>scope</key>
+			<string>entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bf616a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable usage</string>
+			<key>scope</key>
+			<string>source.scalaembedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -129,7 +232,7 @@
 			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.require, support.function.any-method, variable.function</string>
+			<string>entity.name.function, meta.require, support.function.any-method</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -195,7 +298,7 @@
 			<key>name</key>
 			<string>Strings, Inherited Class</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class</string>
+			<string>string, punctuation.definition.string, constant.other.symbol, entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -378,17 +481,6 @@
 			<string>Link Url</string>
 			<key>scope</key>
 			<string>meta.link</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#d08770</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Image Url</string>
-			<key>scope</key>
-			<string>meta.image</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
