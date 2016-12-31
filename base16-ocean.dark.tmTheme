@@ -252,6 +252,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Traits</string>
+			<key>scope</key>
+			<string>entity.name.trait</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a3be8c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
 			<string>meta.class</string>
