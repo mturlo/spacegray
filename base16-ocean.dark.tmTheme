@@ -274,6 +274,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Class body</string>
+			<key>scope</key>
+			<string>meta.class.body</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c0c5ce</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Methods</string>
 			<key>scope</key>
 			<string>keyword.other.special-method</string>
