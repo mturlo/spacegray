@@ -283,17 +283,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#eff1f5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Class body</string>
-			<key>scope</key>
-			<string>meta.class.body</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
 				<string>#c0c5ce</string>
 			</dict>
 		</dict>
